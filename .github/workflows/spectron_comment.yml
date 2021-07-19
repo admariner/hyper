@@ -36,7 +36,7 @@ jobs:
         run: ls -al
       - name: Upload images to imgur
         id: upload_screenshots
-        uses: devicons/public-upload-to-imgur@v2.2.1
+        uses: devicons/public-upload-to-imgur@v2.2.2
         with:
           path: ./*.png
           client_id: ${{ secrets.IMGUR_CLIENT_ID }}
